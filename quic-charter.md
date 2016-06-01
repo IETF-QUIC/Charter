@@ -5,9 +5,10 @@ Acronym: QUIC
 Area: TSV
 
 Personnel
-  Chairs  TBD
-  Area Director: Spencer Dawkins
-  Security Area Advisor: TBD
+
+ * Chairs: TBD
+ * Area Director: Spencer Dawkins
+ * Security Area Advisor: TBD
 
 # Charter for Working Group
 
