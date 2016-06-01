@@ -21,7 +21,7 @@ The work of the group will have four main focus areas, corresponding to four cor
 
 The second of these focus areas is security. This work will describe how the protocol uses the facilities of TLS 1.3 for key negotiation and will also describe how those keys are used to provide confidentiality and integrity protection of both application data and QUIC headers. This work will ensure that QUIC using TLS1.3 has security and privacy properties that are at least as good as a stack composed of TLS1.3 using MPTCP.
 
-The third focus area will describe mappings between specific applications’ semantics and the transport facilities of QUIC. The first mapping will be a description of HTTP/2 semantics using QUIC, specifically with the goal of minimizing web latency using QUIC. Upon completion of that mapping, additional protocols may be added by updating this charter to include them.
+The third focus area will describe mappings between specific applications’ semantics and the transport facilities of QUIC. The first mapping will be a description of HTTP/2 semantics using QUIC, specifically with the goal of minimizing web latency using QUIC. This mapping will accommodate the extension mechanisms defined in the HTTP/2 specification. Upon completion of that mapping, additional protocols may be added by updating this charter to include them.
 
 The fourth focus area will extend core protocol facilities to enable multipath capabilities for both connection migration and load sharing.
 
