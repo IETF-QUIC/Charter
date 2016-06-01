@@ -1,23 +1,27 @@
-Name  Quick UDP-based Internet Connection (QUIC)
+Name: Quick UDP-based Internet Connection (QUIC)
 
-Acronym  QUIC
+Acronym: QUIC
 
-Area TSV
+Area: TSV
 
 Personnel
+  Chairs  TBD
+  Area Director: Spencer Dawkins
+  Security Area Advisor: TBD
 
-   Chairs  TBD
+# Charter for Working Group
 
-   Area Director: Spencer Dawkins
+There is emerging implementation and deployment experience with QUIC, a UDP-based protocol that provides a stream-multiplexing encrypted transport. Based on that implementation and deployment experience, the QUIC working group will provide a standards track specification generalizing the design described in the initial set of draft-tsvwg-quic-protocol, draft-tsvwg-quic-loss-recovery, and related documents. 
 
-   Security Area Advisor: TBD
+Key goals for QUIC are: 
+ * Minimizing connection establishment and overall transport latency for applications, starting with HTTP/2; 
+ * Providing multiplexing without head-of-line blocking; 
+ * Enabling deployment over unmodified Internet paths; and 
+ * Enabling multipath and forward error correction extensions.
 
-Charter for Working Group
--------------------------
+The work of the group will have four main focus areas, corresponding to four core deliverables. 
 
-There is emerging implementation and deployment experience with QUIC, a UDP-based protocol that provides a stream-multiplexing encrypted transport. Based on that implementation and deployment experience, the QUIC working group will provide a standards track specification generalizing the design described in the initial set of draft-tsvwg-quic-protocol, draft-tsvwg-quic-loss-recovery, and related documents. Key goals for QUIC are: minimizing connection establishment and overall transport latency for applications, starting with HTTP/2; providing multiplexing without head-of-line blocking; enabling deployment over unmodified Internet paths; and enabling multipath and forward error correction extensions.
-
-The work of the group will have four main focus areas, corresponding to four core deliverables. The first of these is the core transport work, which will describe the wire format, along with the mechanisms for connection establishment, stream multiplexing, data reliability, loss detection and recovery, congestion control, version negotiation, and options negotiation. Work on congestion control will describe use of an existing congestion controller as a default scheme for QUIC. QUIC is expected to support rapid iterability and experimentation, and this work will describe a versioning process that enables distributed experimentation with QUIC. 
+The first of these is the core transport work, which will describe the wire format, along with the mechanisms for connection establishment, stream multiplexing, data reliability, loss detection and recovery, congestion control, version negotiation, and options negotiation. Work on congestion control will describe use of an existing congestion controller as a default scheme for QUIC. QUIC is expected to support rapid iterability and experimentation, and this work will describe a versioning process that enables distributed experimentation with QUIC. 
 
 The second of these focus areas is security. This work will describe how the protocol uses the facilities of TLS 1.3 for key negotiation and will also describe how those keys are used to provide confidentiality and integrity protection of both application data and QUIC headers. This work will ensure that QUIC using TLS1.3 has security and privacy properties that are at least as good as a stack composed of TLS1.3 using MPTCP.
 
@@ -30,30 +34,21 @@ After the completion of the core protocol deliverable, the group will consider a
 Note that consensus is required both for changes to the current protocol mechanisms and retention of current mechanisms. In particular, because something is in the initial document set does not imply that there is consensus around the feature or around how it is specified.
 
 The following work items are explicitly out of scope for this group:
-- Defining new congestion control schemes.
-- Defining new forward error correction schemes.
+* Defining new congestion control schemes.
+* Defining new forward error correction schemes.
 
-Milestones
+## Milestones
 
-Working group adoption of Core Protocol document
-Working group adoption of Loss detection and Congestion Control document
+* Chartering + N Months: Working group adoption of Core Protocol document
+* Chartering + N Months: Working group adoption of Loss detection and Congestion Control document
+* Chartering + N Months: Working group adoption of TLS 1.3 mapping document
+* Chartering + N Months: Working group adoption of HTTP/2 mapping document
+* Chartering + N Months: Working group adoption of Multipath extension document
+* Chartering + N Months: Working group adoption of FEC extension document
+* Chartering + N Months: Core Protocol document to IESG
+* Chartering + N Months: Loss detection and Congestion Control document to IESG
+* Chartering + N Months: TLS 1.3 Mapping document to IESG
+* Chartering + N Months: HTTP/2 mapping document to IESG
+* Chartering + N Months: Multipath extension document to IESG
+* Chartering + N Months: FEC extension document to IESG
 
-Working group adoption of TLS 1.3 mapping document
-
-Working group adoption of HTTP/2 mapping document
-
-Working group adoption of Multipath extension document
-
-Working group adoption of FEC extension document
-
-Core Protocol document to IESG
-
-Loss detection and Congestion Control document to IESG
-
-TLS 1.3 Mapping document to IESG
-
-HTTP/2 mapping document to IESG
-
-Multipath extension document to IESG
-
-FEC extension document to IESG
