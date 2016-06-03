@@ -51,5 +51,5 @@ The following work items are explicitly out of scope for this group:
 * Chartering + 18 Months: HTTP/2 mapping document to IESG
 * Chartering + 18 Months: Multipath extension document to IESG
 * Rechartering + 3 Months: Working group adoption of FEC extension document
-* Rechartering + 24 Months: FEC extension document to IESG
+* Rechartering + 12 Months: FEC extension document to IESG
 
