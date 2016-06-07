@@ -40,16 +40,16 @@ The following work items are explicitly out of scope for this group:
 
 ## Milestones
 
-* Chartering + N Months: Working group adoption of Core Protocol document
-* Chartering + N Months: Working group adoption of Loss detection and Congestion Control document
-* Chartering + N Months: Working group adoption of TLS 1.3 mapping document
-* Chartering + N Months: Working group adoption of HTTP/2 mapping document
-* Chartering + N Months: Working group adoption of Multipath extension document
-* Chartering + N Months: Working group adoption of FEC extension document
-* Chartering + N Months: Core Protocol document to IESG
-* Chartering + N Months: Loss detection and Congestion Control document to IESG
-* Chartering + N Months: TLS 1.3 Mapping document to IESG
-* Chartering + N Months: HTTP/2 mapping document to IESG
-* Chartering + N Months: Multipath extension document to IESG
-* Chartering + N Months: FEC extension document to IESG
+* Chartering + 3 Months: Working group adoption of Core Protocol document
+* Chartering + 3 Months: Working group adoption of Loss detection and Congestion Control document
+* Chartering + 3 Months: Working group adoption of TLS 1.3 mapping document
+* Chartering + 3 Months: Working group adoption of HTTP/2 mapping document
+* Chartering + 12 Months: Working group adoption of Multipath extension document
+* Chartering + 18 Months: Core Protocol document to IESG
+* Chartering + 18 Months: Loss detection and Congestion Control document to IESG
+* Chartering + 18 Months: TLS 1.3 Mapping document to IESG
+* Chartering + 24 Months: HTTP/2 mapping document to IESG
+* Chartering + 30 Months: Multipath extension document to IESG
+* Rechartering + 3 Months: Working group adoption of FEC extension document
+* Rechartering + 12 Months: FEC extension document to IESG
 
