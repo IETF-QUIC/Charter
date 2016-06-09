@@ -38,6 +38,8 @@ The following work items are explicitly out of scope for this group:
 * Defining new congestion control schemes.
 * Defining new forward error correction schemes.
 
+In order to achieve the milestones set out below, the group expects to make extensive use of interim meetings, especially in its first year.
+
 ## Milestones
 
 * Chartering + 3 Months: Working group adoption of Core Protocol document
