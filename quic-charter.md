@@ -22,7 +22,7 @@ Key goals for QUIC are:
 
 The work of the group will have four main focus areas, corresponding to four core deliverables. 
 
-The first of these is the core transport work, which will describe the wire format, along with the mechanisms for connection establishment, stream multiplexing, data reliability, loss detection and recovery, congestion control, version negotiation, and options negotiation. Work on congestion control will describe use of an existing congestion controller as a default scheme for QUIC. QUIC is expected to support rapid iterability and experimentation, and this work will describe a versioning process that enables distributed experimentation with QUIC. 
+The first of these is the core transport work, which will describe the wire format, along with the mechanisms for connection establishment, stream multiplexing, data reliability, loss detection and recovery, congestion control, version negotiation, and options negotiation. Work on congestion control will describe use of an existing congestion controller as a default scheme for QUIC. Defining new congestion control schemes is explicitly out of scope for this group. QUIC is expected to support rapid iterability and experimentation, and this work will describe a versioning process that enables distributed experimentation with QUIC. 
 
 The second of these focus areas is security. This work will describe how the protocol uses the facilities of TLS 1.3 for key negotiation and will also describe how those keys are used to provide confidentiality and integrity protection of both application data and QUIC headers. This work will ensure that QUIC using TLS1.3 has security and privacy properties that are at least as good as a stack composed of TLS1.3 using TCP (or MPTCP when using multipath).
 
@@ -30,13 +30,7 @@ The third focus area will describe mappings between specific applications’ sem
 
 The fourth focus area will extend core protocol facilities to enable multipath capabilities for both connection migration and load sharing.
 
-After the completion of the core protocol deliverable, the group will consider a recharter to complete extensions that will support partial reliability and enable the negotiation and use of FEC schemes. Where possible, the design of the core protocol should not preclude future extensions in this direction. Development of new FEC schemes will not be considered by this group.
-
 Note that consensus is required both for changes to the current protocol mechanisms and retention of current mechanisms. In particular, because something is in the initial document set does not imply that there is consensus around the feature or around how it is specified.
-
-The following work items are explicitly out of scope for this group:
-* Defining new congestion control schemes.
-* Defining new forward error correction schemes.
 
 In order to achieve the milestones set out below, the group expects to make extensive use of interim meetings, especially in its first year.
 
@@ -52,6 +46,3 @@ In order to achieve the milestones set out below, the group expects to make exte
 * Chartering + 18 Months: TLS 1.3 Mapping document to IESG
 * Chartering + 24 Months: HTTP/2 mapping document to IESG
 * Chartering + 30 Months: Multipath extension document to IESG
-* Rechartering + 3 Months: Working group adoption of FEC extension document
-* Rechartering + 12 Months: FEC extension document to IESG
-
