@@ -22,7 +22,7 @@ Key goals for QUIC are:
 
 The work of the group will have four main focus areas, corresponding to four core deliverables. 
 
-The first of these is the core transport work, which will describe the wire format, along with the mechanisms for connection establishment, stream multiplexing, data reliability, loss detection and recovery, congestion control, version negotiation, and options negotiation. Work on congestion control will describe use of an existing congestion controller as a default scheme for QUIC. QUIC is expected to support rapid iterability and experimentation, and this work will describe a versioning process that enables distributed experimentation with QUIC. 
+The first of these is the core transport work, which will describe the wire format, along with the mechanisms for connection establishment, stream multiplexing, data reliability, loss detection and recovery, congestion control, version negotiation, and options negotiation. Work on congestion control will describe use of an existing congestion controller as a default scheme for QUIC. QUIC is expected to support rapid, distributed testing and development of features. 
 
 The second of these focus areas is security. This work will describe how the protocol uses the facilities of TLS 1.3 for key negotiation and will also describe how those keys are used to provide confidentiality and integrity protection of both application data and QUIC headers. This work will ensure that QUIC using TLS1.3 has security and privacy properties that are at least as good as a stack composed of TLS1.3 using TCP (or MPTCP when using multipath).
 
